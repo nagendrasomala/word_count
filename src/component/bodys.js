@@ -7,7 +7,7 @@ export default function Body() {
     const handle = (e) => {
         const newText = e.target.value.split(" ");
         setText(e.target.value);
-        setWords(newText.length);
+        setWords(newText.length-2);
     }
 
   return (
